@@ -1,4 +1,5 @@
 /*
+(Model, ModelYear, color, DatePurchased, PricePurchased, DateSold, PriceSold, SoldOrLeased)
 'Trailblazer', 2025, 'gray', '08-01-24', 18000, null, null, null
 'Trailblazer', 2024, 'black', '01-02-24', 18000, null, null, null
 'Trailblazer', 2023, 'blue', '10-01-22', 17500, '06-01-23', 20300, 'leased'
