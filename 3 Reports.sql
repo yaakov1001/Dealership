@@ -7,7 +7,7 @@ where c.isSold is not null
 group by c.isSold
 
 --Which model earned the most revenue?
-select top 1 sum(c.PriceSold - c.PricePurchased) as Revenue, c.Model
+select top 1 sum(c.PriceSold) as Revenue, c.Model
 from Cars c 
 where c.PriceSold is not null
 group by c.Model
